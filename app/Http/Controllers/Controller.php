@@ -16,8 +16,9 @@ class Controller extends BaseController
     {
         if (Auth::check()) {
             view()->share('user', Auth::user());
-        } else {
-            dd('NAO LOGADO');
         }
+//        else {
+//            dd('NAO LOGADO');
+//        }
     }
 }
