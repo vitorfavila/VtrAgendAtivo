@@ -8,7 +8,7 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::group(['middleware' => 'auth'], function() {
         Route::get('/aaa', function() {
-            return "aaaagaia";
+            return "a2saaagaia";
         });
     });
 });
